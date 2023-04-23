@@ -1,0 +1,380 @@
+/* privat screen meduime computer */
+/* size screen : 1344px */
+@media(max-width:84em) {
+    .main-heading {
+        font-size: 4rem;
+    }
+
+    .main-paragraph {
+        font-size: 1.5rem;
+    }
+
+    .main-btn {
+        font-size: 1.5rem;
+    }
+}
+
+/* privat screen Big Tab */
+/* size screen : 1200px */
+@media(max-width:75em) {
+    /* No things*/
+}
+
+/********************************************************/
+
+/* privat screen meduime Tab */
+/* size screen : 944px */
+@media(max-width:59em) {
+    .main-content {
+        margin-top: -10rem;
+    }
+
+    .deliver-pergraph {
+        font-size: 1.2rem;
+    }
+
+    .models-images {
+        gap: 1.5rem;
+    }
+
+    .contact {
+        padding: 0 0.1rem;
+    }
+}
+
+/***********************************************************************/
+/* privat screen small Tab */
+/* size screen : 700px */
+
+@media(max-width:44.5em) {
+
+    .deliver-caption {
+        font-size: 1.3rem;
+    }
+
+    .deliver-number {
+        font-size: 1.5rem;
+    }
+
+    .deliver-number {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:44em) {
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+
+    .deliver {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+    }
+
+    .contaneir-paragraph {
+        max-width: 33rem;
+    }
+
+    .deliver-content {
+        grid-row: 1;
+    }
+
+    .caption-content {
+        font-size: 1.1rem;
+    }
+
+    .paragraph-content {
+        font-size: 1rem;
+    }
+
+    .icon-deta .data {
+        font-size: 0.8rem;
+    }
+
+    .icon-admain .person {
+        font-size: 0.8rem;
+    }
+
+    .image-contact {
+        width: 44rem;
+    }
+
+    .heading-nav {
+        font-size: 1.2rem;
+    }
+
+    .List-Link a:visited,
+    .List-Link a:link {
+        font-size: 1rem;
+    }
+
+    .content-auther {
+        font-size: 1rem;
+    }
+}
+
+/***********************************************************************/
+/* privat screen big mobl */
+/* size screen : 600 && 500 */
+@media(max-width:34em) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .btn-click .icon-menu {
+        width: 10rem;
+        height: 3rem;
+
+    }
+
+    .header-icon {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.1rem;
+
+    }
+
+    .navegation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid #a4916d;
+        transition: all 0.5s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+    .List {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 2rem;
+    }
+
+    .header-caption {
+        z-index: 999;
+    }
+
+    .btn-click {
+        display: block;
+        margin-right: -15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .active .navegation {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .header-icon {
+        margin-right: -15rem;
+    }
+
+    .social-icon .List {
+        flex-direction: row;
+    }
+
+    .section-contact .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .section-contact .image-contact {
+        height: 44rem;
+    }
+
+    .List-Link a:visited,
+    .List-Link a:link {
+        font-size: 0.8rem;
+    }
+
+    .footer-content {
+        font-size: 0.9rem;
+    }
+
+    .deliver-pergraph {
+        font-size: 1rem;
+    }
+
+    .caption-content {
+        font-size: 1rem;
+    }
+}
+
+/***********************************************************************/
+/* privat screen midume mobill */
+
+@media(min-width: 25em) and (max-width:32em) {
+
+
+    .header-icon {
+        margin-right: -13rem;
+    }
+
+
+    .deliver-images {
+        flex-direction: column;
+    }
+
+    .features {
+        padding: 0 11rem;
+        grid-template-columns: 1fr;
+    }
+
+    .price-currently {
+        font-size: 0.9rem;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        row-gap: 2.4rem;
+        padding: 0 6rem;
+    }
+
+    .contanier-footers {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2.8rem;
+    }
+
+    .header-icon {
+        margin-bottom: -0.2rem;
+    }
+}
+
+/***********************************************************************/
+
+/*privat screen small mobill */
+/* very very important icording to mobile device*/
+@media(min-width: 18.8em) and (max-width:24.9em) {
+
+
+
+    .header-icon {
+        margin-right: -9rem;
+    }
+
+    .btn-click {
+        margin-right: -12rem;
+    }
+
+    .gallery {
+        padding: 0 1.2rem;
+    }
+
+    .product {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .deliver-images {
+        flex-direction: column;
+    }
+
+    .features {
+        padding: 0 11rem;
+        grid-template-columns: 1fr;
+    }
+
+    .price-currently {
+        font-size: 0.9rem;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        row-gap: 2.4rem;
+        padding: 0 6rem;
+    }
+
+    .contanier-footers {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2.8rem;
+    }
+
+    .header-icon {
+        margin-bottom: -0.2rem;
+    }
+
+    .form-contact {
+        padding: 2rem 5rem;
+    }
+
+    .heading-nav {
+        font-size: 0.9rem;
+    }
+}
+
+/*privat screen very small mobill */
+@media(min-width: 15.6em) and (max-width:18.1em) {
+    .header-icon {
+        margin-right: -7rem;
+    }
+
+    .btn-click {
+        margin-right: -10rem;
+    }
+
+    .gallery {
+        padding: 0 1.5rem;
+    }
+
+    .product {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .deliver-images {
+        flex-direction: column;
+    }
+
+    .features {
+        padding: 0 9rem;
+        grid-template-columns: 1fr;
+    }
+
+    .price-currently {
+        font-size: 0.9rem;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        row-gap: 2.4rem;
+        padding: 0 6rem;
+    }
+
+    .contanier-footers {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2.8rem;
+    }
+
+    .header-icon {
+        margin-bottom: -0.2rem;
+    }
+
+    .form-contact {
+        padding: 2rem 8rem;
+    }
+
+    .heading-nav {
+        font-size: 0.9rem;
+    }
+
+    .line {
+        max-width: 25rem;
+    }
+
+    .content-auther {
+        font-size: 0.9rem;
+    }
+}
+
+/***********************************************************************/
